@@ -11,27 +11,17 @@ namespace SimpleMan.Zones.Editor
         [MenuItem("GameObject/Zones/Event Zone", false)]
         public static void CreateEventZone(MenuCommand menuCommand)
         {
-            GameObject prefab = GetPrefabs()[0];
-            if(prefab == null)
+            int index = 0;
+            var prefabs = GetPrefabs();
+            if(index >= prefabs.Count)
             {
                 throw new System.NullReferenceException(
-                    "<b> Zones: </b> Zones collection have null reference" +
-                    "to prefab.Check collection asset");
+                    $"<b> Zones: </b> Can't find prefab at index '{index}' in collection." +
+                    "Probably prefab was delated. Go to Edit -> Project settings -> Zones and check" +
+                    "the prefabs list, than press 'Apply' button.");
             }
 
-            GameObject gameObject = Object.Instantiate(prefab);
-            gameObject.name = prefab.name;
-            GameObjectUtility.SetParentAndAlign(gameObject, menuCommand.context as GameObject);
-
-            GameObjectUtility.SetParentAndAlign(gameObject, menuCommand.context as GameObject);
-            Undo.RegisterCreatedObjectUndo(gameObject, "Create" + gameObject.name);
-            Selection.activeObject = gameObject;
-        }
-
-        [MenuItem("GameObject/Zones/Damage Zone", false)]
-        public static void CreateDamageZone(MenuCommand menuCommand)
-        {
-            GameObject prefab = GetPrefabs()[1];
+            GameObject prefab = prefabs[index];
             if(prefab == null)
             {
                 throw new System.NullReferenceException(

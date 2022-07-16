@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b669b57c6d6009d45a4bc51cfc3ff766, type: 3}
-  m_Name: ZonesCollections
+  m_Name: ZonesCollection
   m_EditorClassIdentifier: 
   _prefabs:
   - {fileID: 8318618885287422605, guid: b0c00ee02856b3141b5cf19cca02786b, type: 3}
-  - {fileID: 2305818124988196049, guid: 314420a5164bf5143afac3efd8b2af2e, type: 3}

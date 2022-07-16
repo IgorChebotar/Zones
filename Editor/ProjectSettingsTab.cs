@@ -60,7 +60,7 @@ namespace SimpleMan.Zones.Editor
                             if (GUILayout.Button("Apply", GUILayout.Height(30)))
                             {
                                 HierarchyCreatorWriter.UpdateCreatorClass();
-                                Debug.Log("Changes applied");
+                                Debug.Log("<b>Zones:</b> Changes applied");
                             }
                         });
                         verticalLayout.Add(container);

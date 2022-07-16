@@ -18,7 +18,17 @@ namespace SimpleMan.Zones.Editor
                     outfile.WriteLine($"        [MenuItem(\"GameObject/Zones/{name.ToSplitPascalCase()}\", false)]");
                     outfile.WriteLine($"        public static void Create{name.WithoutSpaces()}(MenuCommand menuCommand)");
                     outfile.WriteLine("        {");
-                    outfile.WriteLine($"            GameObject prefab = GetPrefabs()[{prefabIndex}];");
+                    outfile.WriteLine($"            int index = {prefabIndex};");
+                    outfile.WriteLine("            var prefabs = GetPrefabs();");
+                    outfile.WriteLine("            if(index >= prefabs.Count)");
+                    outfile.WriteLine("            {");
+                    outfile.WriteLine("                throw new System.NullReferenceException(");
+                    outfile.WriteLine("                    $\"<b> Zones: </b> Can't find prefab at index '{index}' in collection.\" +");
+                    outfile.WriteLine("                    \"Probably prefab was delated. Go to Edit -> Project settings -> Zones and check\" +");
+                    outfile.WriteLine("                    \"the prefabs list, than press 'Apply' button.\");");
+                    outfile.WriteLine("            }");
+                    outfile.WriteLine("");
+                    outfile.WriteLine("            GameObject prefab = prefabs[index];");
                     outfile.WriteLine("            if(prefab == null)");
                     outfile.WriteLine("            {");
                     outfile.WriteLine("                throw new System.NullReferenceException(");

@@ -13,4 +13,10 @@
 ### Added
 * Editor icons
 
+## [0.1.2] - 2022-07-16
+### Added
+* Demo package
+* Validation of collection items
 
+### Changed
+* ZoneCollection asset path

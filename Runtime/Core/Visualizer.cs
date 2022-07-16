@@ -145,11 +145,6 @@ namespace SimpleMan.Zones
 
 
 
-        //------EVENTS
-
-
-
-
         //------METHODS
         private void OnValidate()
         {
