@@ -59,7 +59,7 @@ public class NoJumpZone : Zone<CharacterLocomotion>
 ```
 
 ## How to add custom zone to the hierarchy create menu? 
-1. Save your custom zone as prefab on any folder.
+1. Save your custom zone as prefab in any folder.
 2. Go to Edit -> Project settings -> Zones
 3. Add your prefab to the list
 4. **ALERT! Save all your unsaved scripts. Make sure, that you have't compilation errors before click on the 'Apply' button.** 

@@ -16,8 +16,8 @@ namespace SimpleMan.Zones.Editor
             if(index >= prefabs.Count)
             {
                 throw new System.NullReferenceException(
-                    $"<b> Zones: </b> Can't find prefab at index '{index}' in collection." +
-                    "Probably prefab was delated. Go to Edit -> Project settings -> Zones and check" +
+                    $"<b> Zones: </b> Can't find prefab at index '{index}' in collection. " +
+                    "Probably prefab was delated. Go to Edit -> Project settings -> Zones and check " +
                     "the prefabs list, than press 'Apply' button.");
             }
 
@@ -25,7 +25,7 @@ namespace SimpleMan.Zones.Editor
             if(prefab == null)
             {
                 throw new System.NullReferenceException(
-                    "<b> Zones: </b> Zones collection have null reference" +
+                    "<b> Zones: </b> Zones collection have null reference " +
                     "to prefab.Check collection asset");
             }
 

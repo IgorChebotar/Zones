@@ -20,3 +20,7 @@
 
 ### Changed
 * ZoneCollection asset path
+
+## [0.1.3] - 2022-07-16
+### Added
+* Auto check hierarchy object creator file on first boot
