@@ -1,0 +1,19 @@
+{
+    "name": "SimpleMan.Zones.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:86a76aed5cae8444e9c755e1c9681b0e",
+        "GUID:d68900d89ac369a41884483a85e0c4ce"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

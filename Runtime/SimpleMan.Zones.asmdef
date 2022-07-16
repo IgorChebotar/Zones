@@ -1,0 +1,16 @@
+{
+    "name": "SimpleMan.Zones",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d68900d89ac369a41884483a85e0c4ce"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
