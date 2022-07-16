@@ -1,4 +1,4 @@
-# Zones
+# Zones [Download](https://github.com/IgorChebotar/Zones/releases)
 Trigger zones and collider visualization for Unity projects.
 
 **Author:** Igor-Valerii Chebotar
@@ -7,7 +7,7 @@ Trigger zones and collider visualization for Unity projects.
 
 ## Requirements
 * [Sirenix - Odin Inspector](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041#description "* Sirenix - Odin Inspector")
-* [Simple Man - Utilities](https://github.com/IgorChebotar/Utilities)
+* [Simple Man - Utilities](https://github.com/IgorChebotar/Utilities/releases)
 
 ## Quick start
 1. Add the standard zone to scene by right click inside the 'Hierachy' window -> Zones -> Event zone.

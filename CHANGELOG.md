@@ -24,3 +24,7 @@
 ## [0.1.3] - 2022-07-16
 ### Added
 * Auto check hierarchy object creator file on first boot
+
+## [1.0.0] - 2022-07-16
+#Fixed
+* Demo character settings
