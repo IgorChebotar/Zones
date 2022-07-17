@@ -28,3 +28,8 @@
 ## [1.0.0] - 2022-07-16
 #Fixed
 * Demo character settings
+
+## [1.1.0] - 2022-07-17
+#Added
+* Installer
+* Installer window

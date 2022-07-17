@@ -9,7 +9,12 @@ Trigger zones and collider visualization for Unity projects.
 * [Sirenix - Odin Inspector](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041#description "* Sirenix - Odin Inspector")
 * [Simple Man - Utilities](https://github.com/IgorChebotar/Utilities/releases)
 
+## How to install plugin?
+In installer window click 'Install' button it should appear automatically. 
+If window don't appear automatically you can find it in Tools -> [Plugins' name] -> Installer
+
 ## Quick start
+0. Install
 1. Add the standard zone to scene by right click inside the 'Hierachy' window -> Zones -> Event zone.
 2. This zone will react on any object got inside. Use events 'On object entered' and 'On object came out'. 
 3. Done! 
