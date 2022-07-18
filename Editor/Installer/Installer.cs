@@ -46,7 +46,7 @@ namespace SimpleMan.Utilities.Editor
         public static bool IsDependencyExist(string path)
         {
             string[] subfolders = AssetDatabase.GetSubFolders(path);
-            return subfolders.Length > 0;
+            return subfolders.Length > 1;
         }
     }
 }
