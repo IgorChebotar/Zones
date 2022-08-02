@@ -10,8 +10,7 @@ Trigger zones and collider visualization for Unity projects.
 * [Simple Man - Utilities](https://github.com/IgorChebotar/Utilities/releases)
 
 ## How to install plugin?
-In installer window click 'Install' button it should appear automatically. 
-If window don't appear automatically you can find it in Tools -> [Plugins' name] -> Installer
+Open installer by the click on Tools -> Simple Man -> Master Installer -> [Plugins' name] -> Click 'Install' button. If you don't have one or more of the plugins this plugin depends on, you must install it first.
 
 ## Quick start
 0. Install

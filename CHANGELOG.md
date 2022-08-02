@@ -29,16 +29,20 @@
 
 
 ## [1.0.0] - 2022-07-16
-#Fixed
+### Fixed
 * Demo character settings
 
 
 ## [1.1.0] - 2022-07-17
-#Added
+### Added
 * Installer
 * Installer window
 
 
 ## [1.1.1] - 2022-07-18
-#Fixed
+### Fixed
 * Installer fixed
+
+
+## [1.2.0] - 2022-08-02
+### Removed old installer
